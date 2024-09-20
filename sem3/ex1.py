@@ -1,6 +1,3 @@
-
-
-
 def fib(n,cache):
     if n==0 or n==1:
         cache[n]=1

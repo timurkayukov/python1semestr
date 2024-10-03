@@ -6,4 +6,4 @@ def triangle(h, depth=1,symbol='.'):
     triangle(h,depth = depth+1)
     print(symbol*depth)
     return
-triangle(int(input()))
+triangle(7)

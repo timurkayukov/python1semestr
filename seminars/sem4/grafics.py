@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-'''
+
 x = [0,1,2,3,4]
 y = [0,2,4,6,8]
 
@@ -15,7 +15,7 @@ plt.figure(figsize=(8,5), dpi=100)
 #plt.plot(x,y, label='2x', color='red', linewidth=2, marker='.', linestyle='--', markersize=10, markeredgecolor='blue')
 
 #нарисуем график первой функции -- 2x
-plt.plot(x,y, 'b^--', label='2x')
+plt.plot(x,y, 'b^--', label='2x',linestyle='-')
 
 ## Line 2
 
@@ -65,7 +65,7 @@ plt.hist(S, bins = 20)
 plt.show()
 # получился треугольник с центром около 50
 # сложить два равномерных распределения -- самый простой способ получить треугольное распределение
-'''
+
 # пример считывания данных при помощи pandas
 df = pd.read_csv('iris_data.csv')
 # можем посмотреть на отдельный столбец по его названию
